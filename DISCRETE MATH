@@ -1,0 +1,89 @@
+BARCENAS,  KIRSTEN MARIZ                                         BSIT-1A
+ 
+
+IT 101 – Discrete Math
+Quiz # 2
+General Instructions: Write into this pdf your answers for the following items. Submit this in pdf format with you name and section at the upper left corner to pgfonollera@gmail.com on or before January 3, 2018. Late submissions will not be entertained.
+I.	Write a complex proposition that satisfies the following truth tables. (5 points each)
+1.  
+A	B	?
+T	T	F
+T	F	F
+F	T	T
+F	F	F
+
+Answer:  ¬AΛB
+
+2.
+P	Q	?
+T	T	T
+T	F	F
+F	T	F
+F	F	T
+
+Answer: (PΛQ)V(¬PΛ¬Q)
+
+3.
+X	Y	Z	?
+T	T	T	T
+T	T	F	T
+T	F	T	T
+T	F	F	F
+F	T	T	T
+F	T	F	F
+F	F	T	T
+F	F	F	T
+
+Answer: (XΛYΛZ)V(XΛYΛ¬Z)V(XΛ¬YΛZ)V(¬XΛYΛZ)V(¬XΛ¬YΛ¬Z)
+II.	Convert the following statements into a predicate. Write the meaning of all the predicates that you will use. (5 points each)
+Example: Since you never know what tomorrow may bring then don’t lose hope.
+Answer: Let know(x) = x knows what tomorrow may bring          lose hope(x) = x lose hope
+          x ¬know(x)   ¬lose hope(x)
+4.	Some girls like boys who they don’t interact with regularly.
+ Let girls(x) = x girls like boys
+    		Let int(x)    = x interact
+   		 Let reg(x)   = x regularly
+		x girls(x) Λ int(x) < reg(x)
+
+5.	It is not true that some people succeed by cheating.
+ Let human(x) = x people succeed
+ Let cht(x)       = x cheating
+ 	 (x  human(x)cht(x)) = False
+
+6.	All curious people learns a lot except those who don’t act.
+Let diligent(x)      = x curious people
+  	  Let knowledge(x) = x learns a lot
+   	 Let lazy(x)            = x those who don’t act
+          knowledge(x) = x diligent(x) > lazy(x)
+
+7.	If you want to do and can do something, then you do it. If you want to do but can’t do something, then learn it. (Note: two statements separated by a period like this one can be thought as a conjunction of two sentences.)
+    Let yearn(x) = x want to do
+    Let work(x)  = x can do something
+    Let done(x)  = x do it
+    Let study(x) = x learn it
+          ((x yearn(x) Λ work(x))x done(x)) Λ ((x yearn(x) Λ ¬work(x))study(x))
+
+8.	You have to be over 18 years old so that you can legally drink alcohol.
+Let age(x)        = x18yrs old
+Let omaiwa(x) = x you
+Let drunk(x)    = x can legally drink alcohol
+(omaiwa(x)age(x))x drunk(x)
+
+9.	All should work hard as long as they are alive, and rest when they are dead.
+Let work(x)    = x should work hard
+Let life(x)       = x alive
+ Let stop(x)     = x rest
+Let corpse(x) = x dead
+(x alive(x)x work(x)) Λ (x corpse(x)stop(x))
+
+10.	Some people love shoes of certain kind. Some people love afternoons or the way the moon shines. (Note: two statements separated by a period like this one can be thought as a conjunction of two sentences.)
+ Let lover(x) = x people love
+  Let shoe(a)  = a shoes
+  Let noon(x)  = x afternoons
+  Let moon(x) = x the way the moon shines
+          (x lover(x) Λ  a  shoe(a)) Λ (x lover(x) Λ noon(x) V moon(x))  
+
+
+
+PS: CREDITS SA PINAGKUHANAN KO NG ASSIGNMENT CHRISTIAN BALBIN PO YUNG PANGALAN ! HAHAHAHAHAH . DI NA MAALALA YUNG TINURO MO SIR E.
+
